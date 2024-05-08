@@ -36,4 +36,5 @@ void loop()
   } else {
     Serial.println("Far Object");
   }
+  delay(1000);
 }

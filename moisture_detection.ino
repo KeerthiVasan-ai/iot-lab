@@ -38,4 +38,5 @@ void loop(){
         noTone(buzzer);
         digitalWrite(led,LOW);
     }
+    delay(1000);
 }
