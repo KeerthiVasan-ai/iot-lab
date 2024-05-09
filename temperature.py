@@ -18,7 +18,7 @@ read_key = <YOUR_THINGSPEAK_READ_KEY>
 write_key = <YOUR_THINGSPEAK_WRITE_KEY>
 
 pin = 4
-sensor = Adafruit_DHT
+sensor = Adafruit_DHT.DHT11
 
 def measure(channel):
     try:
